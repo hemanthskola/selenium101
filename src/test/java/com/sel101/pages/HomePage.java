@@ -1,6 +1,5 @@
-package com.lambdaTest.pages;
+package com.sel101.pages;
 
-import com.lambdaTest.base.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 

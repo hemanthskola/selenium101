@@ -1,6 +1,5 @@
-package com.lambdaTest.pages;
+package com.sel101.pages;
 
-import com.lambdaTest.base.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -14,7 +13,7 @@ public class SimpleFormDemoPage{
 
     static By header = By.xpath("//div[@class='wrapper']//h1");
     static By inputBox = By.xpath("//input[contains(@placeholder,'Please enter your Message')]");
-    static By getCheckedValueButton = By.xpath("//button[text()='Get Checked Value']");
+    public By getCheckedValueButton = By.xpath("//button[text()='Get Checked Value']");
     static By message = By.cssSelector("p#message");
 
     public void enterMessage(String msg){
